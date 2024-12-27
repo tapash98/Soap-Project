@@ -72,8 +72,6 @@ public class EmployeeEndPoint {
 	@ResponsePayload
 	public SearchEmployeeResponse searchEmployee(@RequestPayload SearchEmployeeRequest request) {
 		System.out.println("tapas");
-		System.out.println("kumar");
-		System.out.println("Behera");
 		return employeeService.searchEmployee(request);
 		
 	}
